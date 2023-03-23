@@ -1,0 +1,190 @@
+[
+  {
+    "line": 7,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-21T06:55:19.848Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2356429100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initialization()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Checking Login functionality on FB",
+        "description": "",
+        "id": "login-page-of-application;checking-login-functionality-on-fb;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 737324400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 100181100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Launch Browsers",
+            "match": {
+              "location": "Step4.setUp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11004289400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Launch FB applications",
+            "match": {
+              "location": "Step4.lanuchApplication()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192428300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter the Username \"sheetalc818@gmail.com\" and Password \"testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sheetalc818@gmail.com",
+                  "offset": 20
+                },
+                {
+                  "val": "testing",
+                  "offset": 57
+                }
+              ],
+              "location": "Step4.enter_the_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-21T06:55:34.248Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1382406400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initialization()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Checking Login functionality on FB",
+        "description": "",
+        "id": "login-page-of-application;checking-login-functionality-on-fb;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 796906400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1112100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Launch Browsers",
+            "match": {
+              "location": "Step4.setUp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9550171200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Launch FB applications",
+            "match": {
+              "location": "Step4.lanuchApplication()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191931400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter the Username \"testingtestdatablz@gmail.com\" and Password \"testing123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testingtestdatablz@gmail.com",
+                  "offset": 20
+                },
+                {
+                  "val": "testing123",
+                  "offset": 64
+                }
+              ],
+              "location": "Step4.enter_the_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "login page of Application",
+    "description": "",
+    "id": "login-page-of-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/FBTest.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 6,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
